@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".MachineLearningActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:text="Machine learning is a branch of artificial intelligence (AI) that enables systems to learn from data and make predictions or decisions without being explicitly programmed for each task. It involves the development of algorithms and models that automatically improve their performance over time through experience. Supervised learning, unsupervised learning, and reinforcement learning are common paradigms in machine learning. Supervised learning involves training models on labeled data, while unsupervised learning discovers patterns and structures within unlabeled data. Machine learning finds applications across various domains, including image and speech recognition, natural language processing, recommendation systems, and autonomous vehicles, driving innovation and advancements in numerous industries."
+        android:textSize="20sp"
+        android:background="#FAFAFA"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/heading" />
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:text="Machine Learning"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="#0000FF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="19dp"
+        android:textSize="20sp"
+        android:text="Roadmap"
+        android:id="@+id/MLroadmapBtn"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

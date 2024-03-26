@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#ACB7F4"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Our Cafe"
+        android:layout_margin="10dp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginBottom="5dp"/>
+
+    <EditText
+        android:id="@+id/eT1"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:textSize="15sp"
+        android:layout_marginBottom="5dp"
+        android:hint="Order 1"/>
+
+    <EditText
+        android:id="@+id/eT2"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginBottom="5dp"
+        android:inputType="text"
+        android:textSize="20sp"
+        android:hint="Order 2" />
+
+    <EditText
+        android:id="@+id/eT3"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginBottom="5dp"
+        android:inputType="text"
+        android:textSize="20sp"
+        android:hint="Order 3" />
+
+    <EditText
+        android:id="@+id/eT4"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginBottom="5dp"
+        android:inputType="text"
+        android:textSize="20sp"
+        android:hint="Order 4" />
+
+    <Button
+        android:id="@+id/orderBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Place your order"
+        android:textSize="20sp"
+        android:layout_marginTop="15dp"/>
+
+</LinearLayout>

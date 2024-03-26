@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".WedDevActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:background="#FAFAFA"
+        android:text="Web development encompasses the creation of websites and web applications using a variety of languages and technologies. Commonly used languages include HTML, CSS, and JavaScript, which collectively define the structure, style, and behavior of web pages. Developers leverage tools such as text editors or integrated development environments (IDEs) like Visual Studio Code or Atom for coding, debugging, and version control. Frameworks such as React, Angular, and Vue.js provide structured approaches to building dynamic and interactive web experiences, while libraries like jQuery streamline common JavaScript tasks. Additionally, backend technologies like Node.js, Django, or Ruby on Rails enable server-side functionality and data processing, facilitating robust web application development."
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/heading" />
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:text="Wed Development"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="#E1D252"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="19dp"
+        android:textSize="20sp"
+        android:text="Roadmap"
+        android:id="@+id/WedroadmapBtn"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

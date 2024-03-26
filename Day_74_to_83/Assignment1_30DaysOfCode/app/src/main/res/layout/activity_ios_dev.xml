@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".IosDev">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:background="#FAFAFA"
+        android:text="iOS development involves creating applications specifically for Apple\'s iOS operating system, primarily using languages such as Swift and Objective-C. These languages are essential for building iOS apps due to their integration with Apple\'s development ecosystem and extensive support from the iOS SDK. Developers utilize Xcode, the official integrated development environment (IDE) for iOS app development, which provides a comprehensive suite of tools for coding, debugging, and app deployment. Frameworks like SwiftUI and UIKit offer a structured approach to building user interfaces, while libraries like Alamofire and Core Data facilitate network requests and data management. Additionally, developers leverage Apple's ecosystem of services such as iCloud and Apple Pay to enhance the functionality and user experience of their iOS applications."
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/heading" />
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="IOS Development"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="#FF0000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="19dp"
+        android:textSize="20sp"
+        android:text="Roadmap"
+        android:id="@+id/IosRoadmap"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

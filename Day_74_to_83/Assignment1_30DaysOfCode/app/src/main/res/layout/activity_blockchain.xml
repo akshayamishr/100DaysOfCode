@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".BlockchainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:background="#FAFAFA"
+        android:text="Blockchain is a decentralized, distributed ledger technology that records transactions across a network of computers in a secure and transparent manner. Each transaction is grouped into blocks, which are cryptographically linked and stored sequentially, forming a chain. This structure ensures the immutability and integrity of data, as tampering with one block would require altering all subsequent blocks, making it highly resistant to fraud and censorship. Blockchain technology is most commonly associated with cryptocurrencies like Bitcoin and Ethereum, where it serves as the underlying technology for securely recording and verifying transactions. However, its applications extend beyond finance to various industries such as supply chain management, healthcare, voting systems, and digital identity verification."
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/heading" />
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:text="Blockchain"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="#00008B"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="19dp"
+        android:textSize="20sp"
+        android:text="Roadmap"
+        android:id="@+id/roadmapBtn"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

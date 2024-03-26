@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="75dp"
+        android:text="You are on second Activity"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:background="@color/cardview_dark_background"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/prevBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Previous Activity"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_marginTop="75dp" />
+
+    <Button
+        android:id="@+id/webBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WEB"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_marginTop="75dp" />
+
+    <Button
+        android:id="@+id/ytBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="YouTube"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_marginTop="75dp"/>
+</LinearLayout>
